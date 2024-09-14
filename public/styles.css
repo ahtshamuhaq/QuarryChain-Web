@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "DIN";
+  src: url("/assets/fonts/din_medium.woff2") format("woff2"),
+    url("/assets/fonts/din_medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Bold";
+  src: url("/assets/fonts/din_bold.woff2") format("woff2"),
+    url("/assets/fonts/din_bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Condensed Medium";
+  src: url("/assets/fonts/futura_condensed_medium.woff2") format("woff2"),
+    url("/assets/fonts/futura_condensed_medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Condensed Bold";
+  src: url("/assets/fonts/futura_condensed_bold.woff2") format("woff2"),
+    url("/assets/fonts/futura_condensed_bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
