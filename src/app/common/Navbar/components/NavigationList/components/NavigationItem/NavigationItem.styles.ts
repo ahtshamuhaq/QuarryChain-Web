@@ -9,7 +9,7 @@ export const NavigationItemContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin-right: 50px;
   cursor: pointer;
   border-radius: 12px;

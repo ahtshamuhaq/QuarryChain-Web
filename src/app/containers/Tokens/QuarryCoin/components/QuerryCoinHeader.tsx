@@ -31,7 +31,7 @@ const QuerryCoinHeader = () => {
           that will enable lightning fast low cost transactions to anyone in the
           world. Quarry will also be used to access and connect the entire
           QuarryChain Ecosystem, with an abundance of application scenarios that
-          power transactions and applications on the chain
+          power transactions and applications on the chain.
         </li>
       </div>
     </div>

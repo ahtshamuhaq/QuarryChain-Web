@@ -3,9 +3,9 @@ import media from "styled-media-query";
 
 export const NavigationListContainer = styled.div`
   height: 100%;
-  width: 70%;
   display: flex;
-  align-items: center;
+  align-items: center	;
+  
 
   ${media.lessThan("medium")`
     display: none;

@@ -114,7 +114,7 @@ const FooterInfo = ({ className }: TextLogoProps) => {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#1FC7D4] w-12 h-12 text-white text-xl rounded-full flex justify-center items-center"
+            className="bg-[#1FC7D4] w-14 h-14 text-white text-xl rounded-full flex justify-center items-center"
             aria-label={alt}
           >
             {icon}

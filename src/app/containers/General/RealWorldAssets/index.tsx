@@ -37,7 +37,7 @@ export function RealWorldAssets() {
           <div className="w-full max-w-2xl">
             <img src={assetPaths.REAL_WORLD_ASSETS} alt="real world assets" />
           </div>
-          <div className="w-1/2">
+          <div className="w-11/12 mx-auto">
             <p className="text-[#000000] font-[400] text-[17px] leading-[50px]">
               QuarryChain enables tokenization of assets in a variety of
               industries to create vast liquidity across the whole global asset

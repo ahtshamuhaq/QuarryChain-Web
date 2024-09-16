@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const MainContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   animation: 1s ease-out fadeIn 1;
 
   @keyframes fadeIn {
@@ -36,10 +36,10 @@ export const MenuFooter = styled.div`
 `;
 
 export const MenuWrapper = styled.div`
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: star;
   padding: 30px 20px;
   background: ${({
     theme: {
@@ -54,7 +54,7 @@ export const LogosContainer = styled.div`
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   margin-bottom: 20px;
 `;
@@ -64,7 +64,7 @@ export const QuarrychainLogoContainer = styled.div`
 `;
 
 export const QuarrychainLogo = styled.img`
-  width: 100%;
+  width: 50%;
 `;
 
 export const QuarrychainTextLogoContainer = styled.div`

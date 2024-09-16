@@ -9,7 +9,7 @@ interface RealWorldCards {
 const RealWorldCard: React.FC<RealWorldCards> = ({ image, title, lists }) => {
   return (
     <div className="flex flex-col w-full h-[480px]  max-w-[430px] p-4  rounded-lg text-[#000000] text-left">
-      <div className="w-[100px] h-[100px] object-contain mx-auto mb-4">
+      <div className=" object-contain mx-auto mb-4">
         <img className="w-full h-full " src={image} alt={title} />
       </div>
       <div className="mb-2">
@@ -18,9 +18,9 @@ const RealWorldCard: React.FC<RealWorldCards> = ({ image, title, lists }) => {
         </h1>
       </div>
       <div>
-        <ul className="text-sm sm:text-base md:text-base lg:text-base text-[#000000] list-disc list-inside">
+        <ul className="text-sm sm:text-base md:text-base font-normal lg:text-base text-[#292929d1] list-disc list-inside">
           {lists.map((list) => (
-            <li className="mb-1" key={list}>
+            <li className="mb-1 font-light" key={list}>
               {list}
             </li>
           ))}

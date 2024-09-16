@@ -45,6 +45,7 @@ export enum assetPaths {
   INFORMATIC_CODE = "assets/informatic_code.png",
   DEPLOYMENT_INFO = "assets/deployment_info.png",
   QUARRY_IMAGE = "assets/quarry_image.png",
+  QUARRY_MAIN = "assets/quarry_main.png",
   YOUTUBE_ICON = "assets/youtube.png",
   LINKEDIN_ICON = "assets/linkedin.png",
   INSTAGRAM_ICON = "assets/instagram.png",

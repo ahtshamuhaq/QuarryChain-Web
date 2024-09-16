@@ -31,11 +31,11 @@ export function handleSliderContentDescription(step: number): string {
     case 2:
       return "Quarry Scan is the first blockchain explorer based on QuarryChain. It has all the essential functions of a blockchain explorer, including searching transactions, accounts, blocks, nodes, smart contracts, on-chain statistics, token creations, etc. It has a built-in web wallet and a DEX based on the Bancor Protocol, enriching the application matrix of QuarryScan.";
     case 3:
-      return "Quarry Coin is the official cryptocurrency for the QuarryChain Protocol. Quarry Coin aims to be a peer-to-peer internet currency that enables instant low-cost transactions to anyone in the world. Quarrycoin will feature faster transaction-confirmation times and improved storage efficiency than the leading math-based currency.";
+      return "Quarry Coin is the official cryptocurrency and utility token for the QuarryChain Network. Quarry aims to be a peer-to-peer digital currency that will enable lightning fast low cost transactions to anyone in the world. Quarry will also be used to access and connect the entire QuarryChain Ecosystem, with an abundance of application scenarios that power transactions and applications on the chain.";
     case 4:
-      return "QuarrySwap is a decentralized exchange (DEX, for short), and one of Quarrychain's first Applications. QuarrySwap also happens to be non-custodial, meaning that unlike centralized exchanges, QuarrySwap does not need to possess your tokens in order for you to be able to trade them. Instead, QuarrySwap allows users to trade trustfully, peer-to-peer, with liquidity that is supplied by other users. This means that new projects can easily connect to their desired markets as long as some entity is willing to provide the liquidity.";
+      return "QuarrySwap is a decentralized exchange (DEX, for short), and one of QuarryChain's first Applications. QuarrySwap also happens to be non-custodial, meaning that unlike centralized exchanges, QuarrySwap does not need to possess your tokens in order for you to be able to trade them. QuarrySwap allows users to safely and securely stake a variety of cryptocurrencies and tokenized real world assets.";
     case 5:
-      return "QuarryChain enables tokenization of assets in a variety of industries to create vast liquidity across the whole global asset market. QuarrySwap can turn almost any asset, real or virtual, into a digital token to be owned, traded, transferred, or stored without the use of a central third-party or intermediary. QuarryChain’s QRY-20 smart contracts power QuarrySwap’s tokenization features and associated digital assets.";
+      return " QuarryChain enables tokenization of assets in a variety of industries to create vast liquidity across the whole global asset market. QuarrySwap can turn almost any asset, real or virtual, into a digital token to be owned, traded, transferred, or stored without the use of a central third-party or intermediary. QuarryChain’s Native Smart Contracts power QuarrySwap’s tokenization features and associated digital assets.";
     default:
       return "";
   }
@@ -50,7 +50,7 @@ export function handleSliderContentImage(step: number): string {
     case 3:
       return assetPaths.QUARRY_IMAGE;
     case 4:
-      return assetPaths.SWAP_HEXAGON;
+      return assetPaths.QUARRY_MAIN;
     case 5:
       return assetPaths.ASSETS_SYMBOL_HEXAGON;
     default:

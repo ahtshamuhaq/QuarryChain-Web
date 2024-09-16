@@ -26,8 +26,8 @@ const QuerryStepsCard: React.FC<QuerryStepsCards> = ({
         <GradientHeading>{title}</GradientHeading>
         <p className="text-base leading-relaxed mt-2">{text}</p>
       </div>
-      <div className="w-full lg:w-1/2 bg-gradient-to-r from-[#FFFFFF] to-[#8cdce2] flex justify-center items-center">
-        <img className="w-3/4 " src={imgPath} alt={title} />
+      <div className="w-full lg:w-1/2 bg-gradient-to-r from-[#FFFFFF] to-[#bafaff] flex justify-center items-center">
+        <img className=" " src={imgPath} alt={title} />
       </div>
     </div>
   );

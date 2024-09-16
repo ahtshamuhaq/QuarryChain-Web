@@ -56,7 +56,7 @@ export const approchQuerrySteps = [
     isReverse: true,
   },
   {
-    title: "Modelling of the Asset",
+    title: "Modeling of the Asset",
     text: "Before implementing the token model chosen for representing assets, one must ask several questions that will impact which information will be embedded on chain and which will remain stored in off-chain databases. The following points should at least be considered:• Are there any legal or regulatory constraints (e.g. data privacy and protection, sector-specific regulation, etc.)?• What is the level of trust required on the data?• What is the business process? Which information is essential for the process to happenproperly and which has an informative purpose?• What are the requirements in terms of scalability (volumetry of data)?This tailoring can include the management of permissioning to call specific functions, adding someadditional functions to be consistent with business requirements, the personalization of somegeneric functions, etc. Some additional considerations may be needed to develop the specificcode and behavior of the token, depending on the kind of assets considered.",
     image: assetPaths.MODELLING_ASSETS,
     isReverse: false,

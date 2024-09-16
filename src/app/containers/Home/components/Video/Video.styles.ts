@@ -6,9 +6,8 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
 
+  background-color:#C4FDEB;
   ${media.lessThan("large")`
    display: none;
   `}

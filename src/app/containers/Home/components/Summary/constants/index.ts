@@ -4,7 +4,7 @@ export const summaryContentArray = [
   {
     title: "High Throughput",
     description:
-      "High throughput is achieved by improving the TPS in Quarry, which has surpassed Bitcoin and Ethereum, to a daily-use practical degree.",
+      " High scalability of transactions are achieved by QuarryChain’s DPoS Consensus that will vastly improve the Transactions Per Second in Quarry (20,000 - 100,000 TPS), which has surpassed Bitcoin and Ethereum, to a daily-use practical degree.",
     imageUrl: assetPaths.HIGH_THROUGHTPUT,
   },
   {
@@ -16,7 +16,7 @@ export const summaryContentArray = [
   {
     title: "High Scalability",
     description:
-      "Because of its scalability and highly effective smart contract (QRY-20), the QuarryChain ecosystem gives applications a wider variety of ways to be deployed. It can support an enormous number of users.",
+      "Because of its scalability and highly effective smart contract (QRC-20), the QuarryChain ecosystem gives applications a wider variety of ways to be deployed. It can support an enormous amount of users.",
     imageUrl: assetPaths.HIGH_SCALABILITY,
   },
 ];

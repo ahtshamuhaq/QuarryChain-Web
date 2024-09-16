@@ -38,6 +38,7 @@ export const ItemContainer = styled.div`
   display: flex;
   width: 100%;
   margin-bottom: 24px;
+  justify-content:justify-between
 
   :hover {
     opacity: 0.6;
@@ -71,6 +72,7 @@ export const SubMenuContainer = styled.div`
 export const SubMenuItem = styled.div`
   width: 100%;
   display: flex;
+  
   flex-direction: column;
   padding: 0px 8px;
 
