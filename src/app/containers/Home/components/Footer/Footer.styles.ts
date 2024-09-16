@@ -3,9 +3,7 @@ import media from "styled-media-query";
 import { Span } from "../../../../common/Typography/Span";
 import { Title } from "../../../../common/Typography/Title";
 import { assetPaths } from "../../../../common/constants";
-type TextLogoProps = {
-  className?: string;
-}
+
 export const Container = styled.footer`
   height: 60%;
   display: flex;

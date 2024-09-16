@@ -2,13 +2,13 @@ import React from "react";
 import { GradientBorderCard, CardContent } from "../QuarryCoin.styles";
 import { assetPaths } from "../../../../common/constants";
 
-interface TextCard {
+interface TextCards {
   title: string;
   text: string;
   borderP: string;
 }
 
-const TextCard: React.FC<TextCard> = ({ title, text, borderP }) => {
+const TextCard: React.FC<TextCards> = ({ title, text, borderP }) => {
   let bg_position = "";
   let bg_image = "";
   if (borderP === "left") {

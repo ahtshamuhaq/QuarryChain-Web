@@ -1,12 +1,12 @@
 import React from "react";
 
-interface UtilityCard {
+interface UtilityCards {
   cardNo: string;
   cardTitle: string;
   cardText: string;
 }
 
-const UtilityCard: React.FC<UtilityCard> = ({
+const UtilityCard: React.FC<UtilityCards> = ({
   cardNo,
   cardText,
   cardTitle,

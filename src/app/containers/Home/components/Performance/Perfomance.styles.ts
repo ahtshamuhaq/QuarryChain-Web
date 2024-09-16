@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import media from "styled-media-query";
-import { assetPaths } from "../../../../common/constants";
 import { Span } from "../../../../common/Typography/Span";
 import { Title } from "../../../../common/Typography/Title";
 

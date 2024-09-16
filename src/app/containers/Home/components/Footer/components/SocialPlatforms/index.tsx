@@ -1,8 +1,6 @@
-import { StyledTitle } from "../../Footer.styles";
 import { Container, SocialMediaIcons } from "./SocialPlatforms.styles";
 import { SocialPlatformProps } from "./types";
 import { socialPlatformItemsToShow } from "./utils";
-import { assetPaths } from "../../../../../../common/constants";
 
 export function SocialPlatforms({
   numberOfItems,

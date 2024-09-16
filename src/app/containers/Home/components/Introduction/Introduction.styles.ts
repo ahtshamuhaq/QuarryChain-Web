@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import media from "styled-media-query";
 import { Button } from "../../../../common/Button";
-import { assetPaths } from "../../../../common/constants";
 import { Span } from "../../../../common/Typography/Span";
 import { Title } from "../../../../common/Typography/Title";
 const isSafari = (window as any).safari || navigator.userAgent.match(/(iPod|iPhone|iPad)/) || navigator.userAgent.match(/AppleWebKit/);

@@ -1,12 +1,12 @@
 import React from "react";
 
-interface RealWorldCard {
+interface RealWorldCards {
   image: string;
   title: string;
   lists: string[];
 }
 
-const RealWorldCard: React.FC<RealWorldCard> = ({ image, title, lists }) => {
+const RealWorldCard: React.FC<RealWorldCards> = ({ image, title, lists }) => {
   return (
     <div className="flex flex-col w-full h-[480px]  max-w-[430px] p-4  rounded-lg text-[#000000] text-left">
       <div className="w-[100px] h-[100px] object-contain mx-auto mb-4">

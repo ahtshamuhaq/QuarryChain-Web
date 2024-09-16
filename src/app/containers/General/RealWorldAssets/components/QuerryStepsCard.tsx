@@ -1,14 +1,14 @@
 import React from "react";
 import { GradientHeading } from "../RealWorldAssets.styles";
 
-interface QuerryStepsCard {
+interface QuerryStepsCards {
   title: string;
   text: string;
   imgPath: string;
   isReverse: boolean;
 }
 
-const QuerryStepsCard: React.FC<QuerryStepsCard> = ({
+const QuerryStepsCard: React.FC<QuerryStepsCards> = ({
   title,
   text,
   imgPath,

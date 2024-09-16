@@ -1,6 +1,5 @@
 import { SocialPlatforms } from "../../../../containers/Home/components/Footer/components/SocialPlatforms";
 import { assetPaths } from "../../../constants";
-import { TextLogo } from "../../../TextLogo";
 import { navbarItems } from "../../constants";
 import {
   Container,

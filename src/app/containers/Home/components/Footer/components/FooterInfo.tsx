@@ -1,12 +1,6 @@
 import React from "react";
 import { assetPaths } from "../../../../../common/constants";
-import {
-  FaDiscord,
-  FaRedditAlien,
-  FaTelegramPlane,
-  FaLinkedinIn,
-} from "react-icons/fa";
-import { BsYoutube, BsInstagram } from "react-icons/bs";
+
 import { Container, StyledSpan, Text } from "../Footer.styles";
 
 const socialMediaLinks = [

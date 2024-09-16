@@ -1,13 +1,13 @@
 import React from "react";
 
-interface QuerryCard {
+interface QuerryCards {
   index: number;
   imgPath: string;
   heading: string;
   text: string;
 }
 
-const QuerryCard: React.FC<QuerryCard> = ({
+const QuerryCard: React.FC<QuerryCards> = ({
   index,
   imgPath,
   heading,

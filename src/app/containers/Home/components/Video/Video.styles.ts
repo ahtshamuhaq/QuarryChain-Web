@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import media from "styled-media-query";
-import { assetPaths } from "../../../../common/constants";
 
 export const Container = styled.section`
   height: 100%;
