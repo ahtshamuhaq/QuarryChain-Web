@@ -30,7 +30,7 @@ export function RealWorldAssets() {
       <Content>
         <div className="flex w-full text-center bg-gradient-to-b from-[#9C37FD] to-[#FFFFFF] flex-col justify-center items-center">
           <div>
-            <h1 className=" py-6 text-[#553499] text-[60px]">
+            <h1 className=" py-6 text-[#553499] text-[40px]">
               Tokenization of Real World Assets
             </h1>
           </div>

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Paragraph } from "../Typography/Paragraph";
 import { Title } from "../Typography/Title";
-import { assetPaths } from "../constants";
 import media from "styled-media-query";
 
 export const Container = styled.section`
