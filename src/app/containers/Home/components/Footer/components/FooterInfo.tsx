@@ -6,47 +6,92 @@ import {
   FaTelegramPlane,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
+import { BsYoutube, BsInstagram } from "react-icons/bs";
+import { Container, StyledSpan, Text } from "../Footer.styles";
 
 const socialMediaLinks = [
   {
     href: "https://t.me/QuarrychainGroup",
-    icon: <FaTelegramPlane className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.TELEGRAM_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "Telegram",
   },
   {
     href: "https://www.linkedin.com/company/quarrychain",
-    icon: <FaLinkedinIn className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.LINKEDIN_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "LinkedIn",
   },
   {
     href: "https://discord.gg/7cZxWJpCyW",
-    icon: <FaDiscord className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.DISCORD_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "Discord",
   },
   {
     href: "https://twitter.com/QuarrychainLLC",
-    icon: <BsTwitter className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.X_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "Twitter",
   },
   {
     href: "https://www.youtube.com/channel/UCy_08G1sh3ioVplrNQkQ_xQ/featured",
-    icon: <BsYoutube className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.YOUTUBE_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "YouTube",
   },
   {
     href: "https://www.reddit.com/r/Quarrychain/",
-    icon: <FaRedditAlien className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.REGEDIT_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "Reddit",
   },
   {
     href: "https://www.instagram.com/quarrychain/",
-    icon: <BsInstagram className="w-6 h-6" />,
+    icon: (
+      <img
+        src={assetPaths.INSTAGRAM_ICON}
+        alt="Twitter"
+        className="w-8 h-8 object-contain"
+      />
+    ),
     alt: "Instagram",
   },
 ];
-
-const FooterInfo = () => {
+type TextLogoProps = {
+  className?: string;
+};
+const FooterInfo = ({ className }: TextLogoProps) => {
   return (
     <div className="text-center md:text-left mb-6 md:mb-0">
       <div className="flex items-center justify-center md:justify-start space-x-4">
@@ -55,9 +100,11 @@ const FooterInfo = () => {
           src={assetPaths.LOGO}
           alt="QuarryChain Logo"
         />
-        <h2 className="text-2xl font-bold text-[#1074BC]">
-          Quarry<span className="text-[#000]">Chain</span>
-        </h2>
+        <Container className={className}>
+          <Text>
+            Quarry<StyledSpan>Chain</StyledSpan>
+          </Text>
+        </Container>
       </div>
       <p className="mt-2 text-md text-gray-700 max-w-sm mx-auto md:mx-0">
         QuarryChain is an innovative blockchain network designed to

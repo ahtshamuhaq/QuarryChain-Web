@@ -18,7 +18,7 @@ export function Support() {
         <StyledSpan>Contact us</StyledSpan>
       </TextContainer>
       <TextContainer>
-        <StyledSpan darker>quarrychain@gmail.com</StyledSpan>
+        <StyledSpan>quarrychain@gmail.com</StyledSpan>
       </TextContainer>
     </Container>
   );

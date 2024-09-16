@@ -48,7 +48,7 @@ export function handleSliderContentImage(step: number): string {
     case 2:
       return assetPaths.BLOCK_EXPLORER;
     case 3:
-      return assetPaths.QUARRY_COIN_HEXAGON;
+      return assetPaths.QUARRY_IMAGE;
     case 4:
       return assetPaths.SWAP_HEXAGON;
     case 5:

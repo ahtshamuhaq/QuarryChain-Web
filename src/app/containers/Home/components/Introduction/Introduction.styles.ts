@@ -11,8 +11,6 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(${assetPaths.HOME_BACKGROUND});
-  background-position:center;
   background-repeat: no-repeat;
   padding-top: 80px;
 
@@ -30,10 +28,11 @@ export const Content = styled.div`
   width: 74%;
   height: 80%;
   display: flex;
-  justify-content:center;
-  align-items:cente;
+
   ${media.between("medium", "large")`
     width: 80%;
+    justify-content: space-between;
+    align-items: center;
   `}
 
   ${media.lessThan("medium")`
@@ -43,12 +42,10 @@ export const Content = styled.div`
 
 export const TitleAndButtonsContainer = styled.div`
   width: 100%;
-  max-width: 40%;
+  max-width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content:center;
   align-items: center;
-  margin:0 auto;
 
   ${media.lessThan("medium")`
     max-width: none;
@@ -78,30 +75,11 @@ export const SloganContainer = styled.div`
 `;
 
 export const StyledTitle = styled(Title)`
-display:flex;
   align-self: flex-start;
-  font-size: 40px;
-  font-weight: 700;
-  color:#000AFF;
-
-  ${media.lessThan("huge")`
-    font-size: 60px;
-    line-height: 40px;
-    letter-spacing: 0.2555em;
-  `}
-
-  ${media.lessThan("medium")`
-    align-self: center;
-    font-size: 40px;
-  `}
-`;
-export const StyledTitleBlock = styled(Title)`
-  display:flex;
-  font-size: 100px;
+  font-size: 4em;
   line-height: 108px;
   letter-spacing: 0.3555em;
   font-weight: 600;
-  color:#0000;
 
   ${media.lessThan("huge")`
     font-size: 40px;
@@ -117,19 +95,16 @@ export const StyledTitleBlock = styled(Title)`
   `}
 `;
 
-export const StyledSpan = styled.p`
+export const StyledSpan = styled(Span)`
   color: ${({
   theme: {
     colors: { neutral },
   },
 }) => neutral[200]};
-  font-size: 30px;
+  font-size: 32px;
   line-height: 51px;
   font-weight: 400px;
-  letter-spacing: 0.175em;
-  margin-top:2rem;
-  text-align:center;
-  
+  letter-spacing: 0.275em;
 
   ${media.lessThan("huge")`
    font-size: 20px;
@@ -156,24 +131,16 @@ export const ButtonsContainer = styled.div`
   `}
 `;
 
-
-export const StyledButton = styled(Button) <{ withMarginRight?: boolean ,secondaryStyledBtn?:boolean}>`
+export const StyledButton = styled(Button) <{ withMarginRight?: boolean }>`
   max-width: 200px;
 
   ${({ withMarginRight }) =>
     withMarginRight &&
     `
   margin-right: 24px;
-  background:linear-gradient(to right,#1FC7D4,#553499);
   `}
-  ${({ secondaryStyledBtn }) =>
-    secondaryStyledBtn &&
-    `
-   background:transparent;
-  border 1px solid linear-gradient(to right,#1FC7D4,#553499);
-  `}
-
 `;
+
 export const ImageContainer = styled.div`
   position: relative;
   width: 610px;

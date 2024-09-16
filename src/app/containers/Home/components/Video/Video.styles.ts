@@ -4,7 +4,6 @@ import { assetPaths } from "../../../../common/constants";
 
 export const Container = styled.section`
   height: 100%;
-  background-image: url(${assetPaths.LOOPS_BG});
   display: flex;
   align-items: center;
   justify-content: center;

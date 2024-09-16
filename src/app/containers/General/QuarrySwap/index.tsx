@@ -7,8 +7,8 @@ export function QuarrySwapDetails() {
     <>
       <div className="w-full h-[200px]  text-white lg:block">
         <h2 className="text-4xl  text-white ">Quarry Swap</h2>
-        <h1 className="text-[60px] mt-10 text-center bg-[#6fcfd7] py-5 text-[#000AFF]">
-          Quarry <span className="text-[#000000]">Swap</span>
+        <h1 className="text-[60px] mt-10 text-center py-5 text-[#000AFF]">
+          Quarry<span className="text-[#000000]">Swap</span>
         </h1>
       </div>
       <QuerryInfo />

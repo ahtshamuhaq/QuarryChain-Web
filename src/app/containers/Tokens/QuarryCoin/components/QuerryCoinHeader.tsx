@@ -4,17 +4,16 @@ import { GradientHeading } from "../QuarryCoin.styles";
 
 const QuerryCoinHeader = () => {
   return (
-    <div className="flex flex-col justify-between items-center w-full">
+    <div className="flex flex-col justify-between items-center w-11/12 mx-auto">
       <div>
-        <div className="mx-auto w-40 h-[3px] bg-[#D9D9D9]"></div>
         <div>
-          <GradientHeading>Quarychain ecosystem</GradientHeading>
+          <GradientHeading>Quarrychain ecosystem</GradientHeading>
         </div>
       </div>
 
       <div className="w-full flex flex-col md:flex-col lg:flex-row lg:justify-between items-center p-4">
         <div className="flex-1 lg:mr-4 mb-4 lg:mb-0">
-          <h2 className="text-[#553499] text-[40px]">Quary Coin</h2>
+          <h2 className="text-[#553499] text-[40px]">Quarry Coin</h2>
         </div>
 
         <div className="w-40 h-40 flex-shrink-0">
@@ -26,7 +25,7 @@ const QuerryCoinHeader = () => {
         </div>
       </div>
       <div className="text-left mt-10">
-        <li className="list-disc text-[#5B5B5B] text-[22px] leading-[30px]">
+        <li className="list-disc text-[#5B5B5B] text-[22px] mb-10 leading-[30px]">
           Quarry Coin is the official cryptocurrency and utility token for the
           QuarryChain Network. Quarry aims to be a peer-to-peer digital currency
           that will enable lightning fast low cost transactions to anyone in the

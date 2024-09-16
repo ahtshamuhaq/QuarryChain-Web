@@ -13,7 +13,7 @@ export const Container = styled.section`
   justify-content: center;
   background-position: center ;
   background-repeat: no-repeat;
-
+padding:20px 0;
   ${media.lessThan("large")`
     height: auto;
     padding: 20px 0px;
@@ -41,6 +41,7 @@ export const Content = styled.div`
 
 export const StyledTitle = styled(Title)`
   margin-bottom: 60px;
+  padding-top:40px;
 
   ${media.lessThan("huge")`
     text-align: center;

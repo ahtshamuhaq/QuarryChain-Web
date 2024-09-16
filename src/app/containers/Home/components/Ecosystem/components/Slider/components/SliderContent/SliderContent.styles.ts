@@ -73,11 +73,13 @@ export const Description = styled(Paragraph)`
 `;
 
 export const HexagonImageContainer = styled.div`
-  height: 100%;
+  height: 80%;
+margin-right:30px
 
   ${media.lessThan("huge")`
     display: flex;
     align-items: center;
+margin-right:30px
     justify-content: center;
   `}
 
@@ -88,11 +90,13 @@ export const HexagonImageContainer = styled.div`
 `;
 
 export const HexagonImage = styled.img`
-  width: 100%;
-  height: 100%;
-
+  width: 80%;
+  height: 80%;
+margin-right:30px
   ${media.lessThan("huge")`
     height: 80%;
+margin-right:30px
+
   `}
 
   ${isSafari && `

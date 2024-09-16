@@ -1,7 +1,11 @@
+import { assetPaths } from "../../../../common/constants";
 import {
   ButtonsContainer,
   Container,
   Content,
+  ImageContainer,
+  ImageContainerMobile,
+  PolygonsImage,
   SloganContainer,
   StyledButton,
   StyledSpan,
@@ -20,18 +24,24 @@ export function Introduction() {
       <Content>
         <TitleAndButtonsContainer>
           <StyledTitle>
-            Quarry <span className="font-black text-black">Chain</span>
+            QuarryChain
           </StyledTitle>
           <SloganContainer>
             <StyledSpan>
               Advanced Blockchain Platform
             </StyledSpan>
           </SloganContainer>
+          <ImageContainerMobile>
+            <PolygonsImage src={assetPaths.POLYGONS} />
+          </ImageContainerMobile>
           <ButtonsContainer>
             <StyledButton withMarginRight onClick={handleLaunchClick}>Launch App</StyledButton>
-            <StyledButton secondaryStyledBtn variant="secondary">Learn More</StyledButton>
+            <StyledButton variant="secondary">Learn More</StyledButton>
           </ButtonsContainer>
         </TitleAndButtonsContainer>
+        <ImageContainer>
+          <PolygonsImage src={assetPaths.POLYGONS} />
+        </ImageContainer>
       </Content>
     </Container>
   );

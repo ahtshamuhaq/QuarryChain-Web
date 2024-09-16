@@ -3,7 +3,9 @@ import media from "styled-media-query";
 import { Span } from "../../../../common/Typography/Span";
 import { Title } from "../../../../common/Typography/Title";
 import { assetPaths } from "../../../../common/constants";
-
+type TextLogoProps = {
+  className?: string;
+}
 export const Container = styled.footer`
   height: 60%;
   display: flex;
@@ -71,28 +73,26 @@ export const TextContainer = styled.div<{ withHover?: boolean }>`
   `}
 `;
 
-export const StyledSpan = styled(Span) <{ darker?: boolean }>`
-  font-size: 20px;
-  line-height: 25px;
-  color: ${({
-  theme: {
-    colors: { neutral },
-  },
-}) => neutral[25]};
 
-  ${({
-  theme: {
-    colors: { neutral },
-  },
-  darker,
-}) =>
-    darker &&
-    `
-    color: ${neutral[200]};
+export const Text = styled(Title)`
+  font-family: ${({theme: {fonts: {futuraBold}}}) => futuraBold};
+  font-size: 24px;
+  line-height: 24px;
+  color: ${({theme: {colors: {regular: {darkBlue}}}}) => darkBlue};
+  letter-spacing: 2px;
+  font-weight: 600;
+
+  ${media.lessThan("huge")`
+    font-size: 20px;
+    line-height: 20px;
   `}
-
-  ${media.between("medium", "huge")`
-    font-size: 15px;
-    line-height: 15px;
-  `};
+`;
+export const StyledSpan = styled(Span)`
+  font-family: inherit;
+  color: ${({theme: {colors: {regular: {darkBlue}}}}) => darkBlue};
+  color: ${({theme: {colors: {neutral}}}) => neutral[400]};
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
 `;
