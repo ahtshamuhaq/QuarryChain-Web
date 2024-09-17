@@ -7,7 +7,7 @@ const QuerryCoinHeader = () => {
     <div className="flex flex-col justify-between items-center w-11/12 mx-auto">
       <div>
         <div>
-          <GradientHeading>Quarrychain ecosystem</GradientHeading>
+          <GradientHeading>QuarryChain Ecosystem</GradientHeading>
         </div>
       </div>
 

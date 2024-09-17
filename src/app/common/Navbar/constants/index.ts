@@ -81,7 +81,7 @@ export const navbarItems: NavbarItem[] = [
     ],
   },
   {
-    title: "Genesis Team",
+    title: "Quarry Labs Team",
     menuItems: [
       {
         name: "Alec Arrambide - CEO/ Founder",
