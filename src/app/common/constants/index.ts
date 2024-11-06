@@ -1,5 +1,6 @@
 export enum assetPaths {
   HOME_BACKGROUND = "assets/home_background.png",
+  TEXT_WORD = "assets/QuarryChain.png",
   LOOPS_BG = "assets/loops_bg.jpeg",
   FOOTER_BG = "assets/footer_bg.png",
   LOGO_WITH_TEXT = "assets/logo_with_text.png",

@@ -5,7 +5,7 @@ import { Container, StyledSpan, Text } from "../Footer.styles";
 
 const socialMediaLinks = [
   {
-    href: "https://t.me/QuarrychainGroup",
+    href: "https://t.me/+997k72ULLVtlNGI5",
     icon: (
       <img
         src={assetPaths.TELEGRAM_ICON}
@@ -38,7 +38,7 @@ const socialMediaLinks = [
     alt: "Discord",
   },
   {
-    href: "https://twitter.com/QuarrychainLLC",
+    href: "https://x.com/quarrylabsinc?s=21&t=jR0Q_ug8rBCTO32Sbir9gQ",
     icon: (
       <img
         src={assetPaths.X_ICON}

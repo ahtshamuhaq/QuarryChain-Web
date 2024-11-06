@@ -10,7 +10,6 @@ export const Container = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(${assetPaths.FOOTER_BG});
   opacity:1.8;
   color: ${({
     theme: {
@@ -75,9 +74,7 @@ export const TextContainer = styled.div<{ withHover?: boolean }>`
 export const Text = styled(Title)`
   font-family: ${({theme: {fonts: {futuraBold}}}) => futuraBold};
   font-size: 24px;
-  line-height: 24px;
   color: ${({theme: {colors: {regular: {darkBlue}}}}) => darkBlue};
-  letter-spacing: 2px;
   font-weight: 600;
 
   ${media.lessThan("huge")`
@@ -90,7 +87,5 @@ export const StyledSpan = styled(Span)`
   color: ${({theme: {colors: {regular: {darkBlue}}}}) => darkBlue};
   color: ${({theme: {colors: {neutral}}}) => neutral[400]};
   font-size: inherit;
-  line-height: inherit;
   font-weight: inherit;
-  letter-spacing: inherit;
 `;
